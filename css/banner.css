@@ -1,0 +1,45 @@
+.banner{
+    background-image: url("../img/paginaInicial/fondo_slide1.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.flex--centrarh{
+    justify-content: center;
+}
+
+.banner__publicidad{
+    color: white;
+    text-align: center;
+    width: 900px;
+    z-index: 1;
+}
+
+.titulo{
+    font-size: 2.5rem;
+}
+
+.banner--sub3{
+    font-size: 1.5rem;
+}
+
+.banner__dog{
+    bottom: 130px;
+    position: absolute;
+    right: 250px;
+    width: 300px;
+}
+.btn__contactanos{
+    color: white;
+    border-radius: 0.3rem;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    padding: 1rem 2.5rem;
+}
+
+.btn__contactanos:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #0095e5;
+}

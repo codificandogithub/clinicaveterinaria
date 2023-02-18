@@ -1,0 +1,39 @@
+.bienvenida{
+    padding: 60px 0;
+}
+
+.bienvenida__foto{
+    box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.9);
+    height: 400px;  
+    width: 350px;  
+}
+
+.bienvenida__conocenos{
+    width: 600px;
+}
+
+.container__bienvenida.flex--gap{
+    gap: 3rem;
+}
+
+.subtitulo--2{
+    font-size: 2rem;
+}
+
+.subtitulo--3{
+    font-size: 1.5rem;
+}
+
+.bienvenida__informacion{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.bienvenida__informacion p{
+    margin-bottom: 0.7rem;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

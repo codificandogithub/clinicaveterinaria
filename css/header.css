@@ -1,0 +1,101 @@
+/*Reset de elementos html*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size:16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: rgba(255,255,255,0.9);
+    border-bottom: 0.2rem solid rgb(255, 115, 0);
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index:111;
+}
+
+.header__logo{
+    width: 220px;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+.container--h100{
+    height: 100%;    
+}
+
+/*Cajas flexibles para mequetar*/
+.flex{
+    display: flex;
+}
+
+.flex--izqder{
+    justify-content: space-between;
+}
+
+.flex--der{
+    justify-content: right;
+}
+
+.flex--centrarv{
+    align-items: center;
+}
+
+.flex--gap{
+    gap: 1rem;
+}
+
+/*Colores utilizados*/
+.text--color--blue{
+    color: #0095e5;    
+}
+.text--color--white{
+    color: white;
+
+}
+
+.fondo--color--blue{
+    background-color: #0095e5;
+   
+}
+.fondo--color--white{
+    background-color: white    
+}
+
+.lista__icon{
+    border: 0.15rem solid #0095e5;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 0.5rem;    
+}
+
+.padding--top--70{
+    padding-top: 70px;
+}
+
+/*Navegacion*/
+.nav{
+    height: 60px;
+}
+
+.nav__lista{    
+    list-style: none;
+    font-weight: 650;
+}
+
+#menu a{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}

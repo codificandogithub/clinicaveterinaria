@@ -1,0 +1,14 @@
+.img__servicio{
+    height: 220px;
+    width: 250px;
+}
+
+.margintop--2rem{
+    margin-top: 2rem;
+}
+
+.figcaption{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
