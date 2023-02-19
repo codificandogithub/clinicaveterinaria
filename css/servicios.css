@@ -12,3 +12,30 @@
     font-weight: bold;
     text-align: center;
 }
+
+/*Reservaciones*/
+.reservacion{
+    background-image: url("../img/paginaInicial/reserva-cita.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.reservacion::before{
+    background-color: rgba(0, 0, 0, 0.9);
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.reservacion__cita{
+    z-index: 3;
+}
+
+
