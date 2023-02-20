@@ -1,0 +1,46 @@
+.opinion{
+    width: 320px;
+}
+
+.opinion__p{
+    padding: 0.5rem;
+}
+
+.opinion__figura{
+    border: 0.3rem solid #0095e5;
+    border-radius: 50%;
+    height: 120px;
+    overflow: hidden;
+    width: 120px;
+    
+}
+
+.opiniones__img__persona{
+    height: 100%;
+    width: 100%;
+}
+
+.opinion--burbuja{
+    border:0.15rem solid #0095e5;
+    border-radius: 0.2rem;
+    height: 160px;
+    position: relative;
+}
+
+.opinion--burbuja::before{
+    background-color: white;
+    bottom: -10px;
+    border-bottom: 0.15rem solid #0095e5;
+    border-left: 0.15rem solid #0095e5;
+    border-bottom-left-radius: 0.25rem;
+    content: "";
+    height: 15px;
+    left: 50px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 15px;
+}
+
+.opinion--separacion{
+    margin-top: 1.5rem;
+}

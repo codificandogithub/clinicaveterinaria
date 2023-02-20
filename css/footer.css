@@ -1,0 +1,18 @@
+.footer__elemento{
+    max-width: 350px;
+}
+
+.justificar--texto{
+    text-align: justify;
+}
+
+.footer--lista{
+    list-style: none;
+}
+
+.footer__copy{
+    background-color: white;
+    color: #0095e5;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
