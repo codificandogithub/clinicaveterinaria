@@ -99,3 +99,14 @@ html{
 a{
     text-decoration: none;
 }
+
+#chkMenu{
+    display: none;
+}
+
+ 
+#btnMenu{
+    cursor: pointer;
+    display: none;
+    font-size: 2rem;
+}

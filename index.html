@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/servicios.css">
   <link rel="stylesheet" href="css/opiniones.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <title>**Veterinaria**</title>
 </head>
 
@@ -24,7 +25,7 @@
         <img src="img/paginaInicial/logo.svg" alt="" class="header__logo" width="250">
       </a>
 
-      <ul id="lista_contacto" class="flex flex--gap">
+      <ul id="lista__contacto" class="flex flex--gap">
         <li class="flex flex--gap flex--centrarv">
           <i class="lista__icon fa-solid fa-phone text--color--blue"></i>
           <p>
@@ -39,15 +40,17 @@
             Lun-Vie: 9am-6pm; Sab: 10am-1pm
           </p>
         </li>
-      </ul>
-
+      </ul>      
+      <!--Mostrar y ocultar menu-->
+      <input type="checkbox" id="chkMenu">
+      <label for="chkMenu" id="btnMenu" class="fa-solid fa-bars"></label>
     </div>
   </header>
 
   <!--Separador de 70px-->
   <div class="padding--top--70"></div>
   <!--Navegacion-->
-  <nav class="nav fondo--color--blue">
+  <nav id="nav" class="nav fondo--color--blue">
     <div class="container container--h100 flex flex--der flex--centrarv">
       <ul id="menu" class="nav__lista flex flex--gap">
         <li><a href="index.html">Inicio</a></li>
@@ -156,7 +159,7 @@
     <section class="servicios">
       <div class="container paddin--2remv">
         <h2 class="subtitulo--2 text--color--blue centrar--texto">Nuestros Servicios</h2>
-        <div class="margintop--2rem flex flex--gap flex--centrarh">
+        <div class="margintop--2rem flex flex--gap flex--centrarh wrap">
           <figure>
             <img src="img/paginaInicial/atencionprimaria.jpg" class="img__servicio" alt="">
             <figcaption class="figcaption text--color--blue">Atención Primaria</figcaption>
@@ -282,9 +285,11 @@
    </div>
     
     <div class="footer__copy">
-        <h5 class="centrar--texto">2021 &copy; Masterpets. Todos los derechos reservados.</h5>
+        <h5 class="centrar--texto">2023 &copy; Masterpets. Todos los derechos reservados.</h5>
     </div>
   </footer>
+  <!--Archivos JS-->
+  <script src="js/menu.js"></script>
 </body>
 
 </html>

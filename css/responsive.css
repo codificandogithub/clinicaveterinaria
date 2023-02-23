@@ -1,0 +1,107 @@
+@media only screen and (max-width: 768px) {
+    
+    html{
+        font-size: 12px;
+    }
+    /*Header y nav*/
+    .container{
+        width: 92%;
+    }
+
+   
+    #btnMenu{       
+        display: block;    
+        font-size: 30px;    
+    }
+    
+    #lista__contacto{
+        display: none;
+    }
+
+    .nav{
+        background-color: rgba(12, 147, 209,0.9);
+        display: block;
+        height: 100vh;
+        position: fixed;        
+        padding: 0;
+        transform: translateX(-100%);
+        transition: 0.5s linear;
+        width: 100%;
+        z-index: 1111;
+
+    }
+    .nav .container{
+        width: 100%;
+    }
+
+    .nav .flex--gap{
+        gap: 0;
+    }
+    .nav .flex--der{
+        justify-content: inherit;
+    }
+
+    .nav .flex--centrarv{
+        align-items: inherit;
+    }
+
+    .nav__lista{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav__lista a{
+        display: block;
+        padding: 1rem;
+        font-size: 16px;
+        width: 100%;
+        
+    }
+
+    .nav__lista a:hover{
+        background-color: rgb(255, 115, 0);
+    }
+
+    .mostrarmenu{
+        transform: translateX(0);
+    }
+
+     /*Banner*/
+     .banner{
+        height: 350px;
+     }
+     .banner__dog{
+        display: none;
+     }
+
+     /*Bienvenida*/
+     .bienvenida__foto{
+        height: 350px;
+        width: 280px;
+     }
+
+    /*Elegirnos*/
+    .elegir__icon{
+        font-size: 4.5rem;
+        padding: 1.7rem;
+    }
+
+    /*Reservacion*/
+    .reservacion{
+        height: 280px;
+    }
+
+    .opinion__p{
+        height: 120px;
+    }
+
+    /*Footer*/
+    .footer__elemento{
+        width: 100%;
+    }    
+    
+    .footer .container.paddin--2remv{
+        padding: 2rem 0;
+    }    
+
+  }

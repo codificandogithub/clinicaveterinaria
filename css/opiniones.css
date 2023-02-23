@@ -1,5 +1,5 @@
 .opinion{
-    width: 320px;
+    width: 300px;
 }
 
 .opinion__p{
@@ -44,3 +44,5 @@
 .opinion--separacion{
     margin-top: 1.5rem;
 }
+
+
